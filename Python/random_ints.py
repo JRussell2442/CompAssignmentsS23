@@ -2,6 +2,10 @@ import random
 
 def random_ints():
     # Your code here!
+    lst = []
+    while 6 not in lst:
+        lst.append(random.randint(1,10))
+    return lst
 
 
 def test():
